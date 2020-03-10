@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+}
+.bgimage{
+    width:100%;
+    height:100vh;
+    background-image: url("bg1.jpg");
+    background-size:cover;
+    position: fixed;
+    text-align: center;
+}
+
+.details {
+  margin-top:50%;
+  font-family: sans-serif;
+  color: green;
+  
+}
+.container {
+  position: relative;
+  text-align:right;
+}
+.resume{
+  position: fixed;
+  left: 0;
+  top:3.5%;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.heading{
+  color:burlywood;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.resumeposition {
+  position: absolute;
+    left: 50px;
+    top: 50px;
+    height: 50px;
+    width: 50px;
+}
+.medal {       
+  position: absolute;
+  left: 250px;
+  top: 50px;
+  height: 50px;
+  width: 50px;
+}
+.sheet{
+  position: absolute;
+  left: 450px;
+  top: 50px;
+  height: 50px;
+  width: 50px;
+}
+.down span{
+  padding-top: 2px;
+  color: cadetblue;
+}
+span{
+  color: cadetblue;
+}
+
+.left{
+  position:absolute;
+  top:120px;
+  left:650px;
+  color:goldenrod;
+}
+.left span{
+  font-size:30px ;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight:600pt;
+  color:green;
+}
+.left strong{
+  font-size:30px ;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:cadetblue;
+}
+.social img{
+    image-rendering:auto;
+    image-resolution:auto;
+    padding:10px;
+    height:50px;
+    width:50px;
+  }
+  .header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    height:3.4%;
+    background-color:rgba(21, 209, 121, 0.349);
+    text-align:right;
+    color: cadetblue;
+  }
+  
+  .footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height:42%;
+    background-color:rgba(0, 0, 100,100%);
+    text-align:center;
+  }
+  .above{
+    margin-top:2%;
+    margin-left:10%;
+    margin-bottom: 0;
+    width: 80%;
+    height:95%;
+    background-color:rgba(0, 0, 0,10%);
+    text-align:center;
+  }
+  .contact{
+    position: absolute;
+    left:35%;
+    top: 50%
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+  }
+  .copyright{
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    left: 10%;
+    bottom: 10px;
+  }
